@@ -1,0 +1,46 @@
+2021.10.11 1:15am: search how to determine if an element is already in the vector: https://www.techiedelight.com/check-vector-contains-given-element-cpp/
+2021.10.12 1:46am: search Qt GUI
+2021.10.12 1:54am: how to convert in to qchar: https://stackoverflow.com/questions/9211304/qt-how-to-convert-a-number-into-qchar
+2021.10.12 8:40pm: c++ destructor: https://stackoverflow.com/questions/1025313/will-an-empty-constructor-or-destructor-do-the-same-thing-as-the-generated-one#:~:text=Since%20no%20destructor%20is%20defined,defining%20an%20empty%20destructor%2C%20ie.
+2021.10.12 11:30pm: c++ vector replace: https://www.cplusplus.com/reference/algorithm/replace/
+Bug: 1. when select a qlistitem, the program crashed. Solution: forget to add count in my display component class.
+	 2. When select a face, only three lines appears. Solution: the last element of vector idx should be 0 instead of 4.
+2021.10.13 1:03am: qt set select: https://stackoverflow.com/questions/6249668/how-do-i-set-the-selected-item-in-a-qlistwidget
+2021.10.13 1:17am: qt hold shift: https://stackoverflow.com/questions/22091598/qt-keypressevent-not-called-properly-when-holding-down-specific-keys-shift-key
+2021.10.13 8:18pm: cross product of parallel vector: https://byjus.com/jee-questions/what-is-the-cross-product-of-two-parallel-vectors/#:~:text=The%20cross%20product%20of%20two%20parallel%20vectors%20is%20a%20zero,b%20%E2%86%92%20%3D%20c%20a%20%E2%86%92%20.
+
+campare float with 0: https://bitbashing.io/comparing-floats.html
+
+
+2021.10.20 11:30pm: c++ map: https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+
+pass by ref or pointer: https://stackoverflow.com/questions/334856/are-there-benefits-of-passing-by-pointer-over-passing-by-reference-in-c
+
+Pass by value when the function does not want to modify the parameter and the value is easy to copy (ints, doubles, char, bool, etc... simple types. std::string, std::vector, and all other STL containers are NOT simple types.)
+
+Pass by const pointer when the value is expensive to copy AND the function does not want to modify the value pointed to AND NULL is a valid, expected value that the function handles.
+
+Pass by non-const pointer when the value is expensive to copy AND the function wants to modify the value pointed to AND NULL is a valid, expected value that the function handles.
+
+Pass by const reference when the value is expensive to copy AND the function does not want to modify the value referred to AND NULL would not be a valid value if a pointer was used instead.
+
+Pass by non-cont reference when the value is expensive to copy AND the function wants to modify the value referred to AND NULL would not be a valid value if a pointer was used instead.
+
+
+2021.10.21 7:05pm: unique pointer: move ， watch lecture video
+
+2021.10.21 11:27pm: bool std::map::contains( const Key& key ) const;
+
+2021.10.23 21:54pm: qt readline: https://stackoverflow.com/questions/5444959/read-a-text-file-line-by-line-in-qt
+
+2021.10.23 22:45pm: qstring to float: https://www.qtcentre.org/threads/53074-How-to-convert-QString-to-float-and-compare-values
+
+2021 10.24 1:45am: c++ unordered_ map hash: https://stackoverflow.com/questions/17016175/c-unordered-map-using-a-custom-class-type-as-the-key
+
+2021.11.1 0:43am: QJsonarray element to float: https://stackoverflow.com/questions/51875248/parse-json-array-to-qmatrix4x4
+
+2021.11.1 1:11am: build glm quaternion: https://glm.g-truc.net/0.9.0/api/a00184.html
+
+2021.11.3 1:56am: bug: QTreewidgetitem signal not exist. Solution: need to pass an int as well.
+
+2021.11.3 2:04am: glm convert vec4 to vec3: https://stackoverflow.com/questions/14657303/convert-glmvec4-to-glmvec3
